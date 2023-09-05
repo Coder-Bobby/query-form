@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+     
+    <title>survey form using html and css</title>
+
+</head>
+<body>
+
+    <h1> EDUCATIONAL SURVEY FORM</h1>
+    <form id="form">
+        <div class="form-control">
+            <label id="label-name" >Name
+
+            </label>
+            <input type="text" id="name" placeholder="Enter your name"/>
+            
+
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                E-mail
+            </label>
+            <input type="text" id="email" placeholder="Enter your email"/>
+
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age
+
+            </label>
+            <input type="text" id="age" placeholder="Enter your age"/>
+
+        </div> 
+        <div class="form-control">
+            <label for="phone.no" id="label-phone">Phone No.
+
+            </label>
+         <input type="text" id="phone" placeholder="enter your phone.no"/>
+
+
+        </div>
+        <div class="form-control">
+            <label for="class" id="label-class">In which Class you studies ?</label>
+            <select name="class-room" id="class">
+                <option value="8">8th</option>
+                <option value="9">9th</option>
+                <option value="10">10th</option>
+                <option value="11">11th</option>
+                <option value="12">12th</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label >
+                Would you like to join us ?
+            </label >
+            <label for="join-1">
+               yes<input type="radio" id="join-1" name="join">
+            </label>
+            <label for="join-1">
+                No<input type="radio" id="join-2" name="join">
+            </label>
+            <label for="join-1">
+             Maybe<input type="radio" id="join-3" name="join">
+            </label>
+            
+            
+        </div>
+        <div class="form-control">
+           <label>Languages or Frameworks
+            <small>(check all that apply)</small>
+           </label> 
+           <label for="inp-1">
+            <input type="checkbox" name="inp">Angular
+           </label>
+
+           <label for="inp-2">
+            <input type="checkbox" name="inp">C#
+           </label>
+
+           <label for="inp-3">
+            <input type="checkbox" name="inp">JAVA
+           </label>
+
+           <label for="inp-4">
+            <input type="checkbox" name="inp">PYTHON
+           </label>
+
+           <label for="inp-5">
+            <input type="checkbox" name="inp">JAVASCRIPT
+           </label>
+
+           <label for="inp-6">
+            <input type="checkbox" name="inp">JQUERY
+           </label>
+
+           <label for="inp-7">
+            <input type="checkbox" name="inp">REACT.JS
+           </label>
+
+           <label for="inp-8">
+            <input type="checkbox" name="inp">C++
+           </label>
+
+           <label for="inp-9">
+            <input type="checkbox" name="inp">DJANGO
+           </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        
+        </div>
+        <div class="form-control">
+            <button type="submit" value="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
